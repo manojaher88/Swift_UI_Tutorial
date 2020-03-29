@@ -17,6 +17,7 @@
 		84580AD82429041F0048BBE6 /* TextContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84580AD52429041F0048BBE6 /* TextContentView.swift */; };
 		84580ADA242905310048BBE6 /* Button_SwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84580AD9242905310048BBE6 /* Button_SwiftUI.swift */; };
 		84580ADD24306BF60048BBE6 /* ExamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84580ADC24306BF60048BBE6 /* ExamView.swift */; };
+		84580AE1243073370048BBE6 /* StepperState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84580AE0243073370048BBE6 /* StepperState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		84580AD52429041F0048BBE6 /* TextContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextContentView.swift; sourceTree = "<group>"; };
 		84580AD9242905310048BBE6 /* Button_SwiftUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Button_SwiftUI.swift; sourceTree = "<group>"; };
 		84580ADC24306BF60048BBE6 /* ExamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamView.swift; sourceTree = "<group>"; };
+		84580AE0243073370048BBE6 /* StepperState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +70,7 @@
 				84580AD22429041F0048BBE6 /* Image */,
 				84580AD62429041F0048BBE6 /* Button */,
 				84580ADB24306BD50048BBE6 /* Test Exam */,
-				84580ADE243072320048BBE6 /* New Group */,
+				84580ADE243072320048BBE6 /* State */,
 				84580ADF243072540048BBE6 /* Default files */,
 				84580AC4242904060048BBE6 /* Assets.xcassets */,
 				84580AC9242904060048BBE6 /* LaunchScreen.storyboard */,
@@ -118,11 +120,12 @@
 			path = "Test Exam";
 			sourceTree = "<group>";
 		};
-		84580ADE243072320048BBE6 /* New Group */ = {
+		84580ADE243072320048BBE6 /* State */ = {
 			isa = PBXGroup;
 			children = (
+				84580AE0243073370048BBE6 /* StepperState.swift */,
 			);
-			path = "New Group";
+			path = State;
 			sourceTree = "<group>";
 		};
 		84580ADF243072540048BBE6 /* Default files */ = {
@@ -207,6 +210,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84580ADD24306BF60048BBE6 /* ExamView.swift in Sources */,
+				84580AE1243073370048BBE6 /* StepperState.swift in Sources */,
 				84580ABF242904050048BBE6 /* AppDelegate.swift in Sources */,
 				84580ADA242905310048BBE6 /* Button_SwiftUI.swift in Sources */,
 				84580AD82429041F0048BBE6 /* TextContentView.swift in Sources */,
