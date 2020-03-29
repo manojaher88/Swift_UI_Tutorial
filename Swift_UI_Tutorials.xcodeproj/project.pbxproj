@@ -15,6 +15,8 @@
 		84580ACB242904060048BBE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84580AC9242904060048BBE6 /* LaunchScreen.storyboard */; };
 		84580AD72429041F0048BBE6 /* ImageDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84580AD32429041F0048BBE6 /* ImageDemo.swift */; };
 		84580AD82429041F0048BBE6 /* TextContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84580AD52429041F0048BBE6 /* TextContentView.swift */; };
+		84580ADA242905310048BBE6 /* Button_SwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84580AD9242905310048BBE6 /* Button_SwiftUI.swift */; };
+		84580ADD24306BF60048BBE6 /* ExamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84580ADC24306BF60048BBE6 /* ExamView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		84580ACC242904060048BBE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84580AD32429041F0048BBE6 /* ImageDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDemo.swift; sourceTree = "<group>"; };
 		84580AD52429041F0048BBE6 /* TextContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextContentView.swift; sourceTree = "<group>"; };
+		84580AD9242905310048BBE6 /* Button_SwiftUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Button_SwiftUI.swift; sourceTree = "<group>"; };
+		84580ADC24306BF60048BBE6 /* ExamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,7 @@
 		84580ABD242904050048BBE6 /* Swift_UI_Tutorials */ = {
 			isa = PBXGroup;
 			children = (
+				84580ADB24306BD50048BBE6 /* Test Exam */,
 				84580AD62429041F0048BBE6 /* Button */,
 				84580AD22429041F0048BBE6 /* Image */,
 				84580AD42429041F0048BBE6 /* Text */,
@@ -101,8 +106,17 @@
 		84580AD62429041F0048BBE6 /* Button */ = {
 			isa = PBXGroup;
 			children = (
+				84580AD9242905310048BBE6 /* Button_SwiftUI.swift */,
 			);
 			path = Button;
+			sourceTree = "<group>";
+		};
+		84580ADB24306BD50048BBE6 /* Test Exam */ = {
+			isa = PBXGroup;
+			children = (
+				84580ADC24306BF60048BBE6 /* ExamView.swift */,
+			);
+			path = "Test Exam";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,7 +190,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84580ADD24306BF60048BBE6 /* ExamView.swift in Sources */,
 				84580ABF242904050048BBE6 /* AppDelegate.swift in Sources */,
+				84580ADA242905310048BBE6 /* Button_SwiftUI.swift in Sources */,
 				84580AD82429041F0048BBE6 /* TextContentView.swift in Sources */,
 				84580AC1242904050048BBE6 /* SceneDelegate.swift in Sources */,
 				84580AD72429041F0048BBE6 /* ImageDemo.swift in Sources */,
