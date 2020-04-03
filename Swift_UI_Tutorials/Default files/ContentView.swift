@@ -13,7 +13,6 @@ struct ContentView: View {
     let pets = ["Catie", "Antonio", "Jessy", "Laurie", "Ray"]
     
     var body: some View {
-        
         //        VStack {
         //            ForEach(self.pets, id: \.self) { tip in
         //                Image(tip)
