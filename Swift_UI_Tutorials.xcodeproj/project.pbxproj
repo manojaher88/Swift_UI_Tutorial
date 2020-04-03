@@ -22,6 +22,7 @@
 		84580AE62430C7B90048BBE6 /* StackVews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84580AE52430C7B90048BBE6 /* StackVews.swift */; };
 		84580AE92430E61E0048BBE6 /* ForEachCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84580AE82430E61E0048BBE6 /* ForEachCode.swift */; };
 		84580AEC2436D80C0048BBE6 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84580AEB2436D80C0048BBE6 /* ListView.swift */; };
+		84580AEF2436E2AB0048BBE6 /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84580AEE2436E2AB0048BBE6 /* FormView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		84580AE52430C7B90048BBE6 /* StackVews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackVews.swift; sourceTree = "<group>"; };
 		84580AE82430E61E0048BBE6 /* ForEachCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachCode.swift; sourceTree = "<group>"; };
 		84580AEB2436D80C0048BBE6 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		84580AEE2436E2AB0048BBE6 /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 		84580ABD242904050048BBE6 /* Swift_UI_Tutorials */ = {
 			isa = PBXGroup;
 			children = (
+				84580AED2436E29A0048BBE6 /* Form */,
 				84580AEA2436D79D0048BBE6 /* ListView */,
 				84580AD42429041F0048BBE6 /* Text */,
 				84580AD22429041F0048BBE6 /* Image */,
@@ -174,6 +177,14 @@
 			path = ListView;
 			sourceTree = "<group>";
 		};
+		84580AED2436E29A0048BBE6 /* Form */ = {
+			isa = PBXGroup;
+			children = (
+				84580AEE2436E2AB0048BBE6 /* FormView.swift */,
+			);
+			path = Form;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -245,6 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84580AEF2436E2AB0048BBE6 /* FormView.swift in Sources */,
 				84580ADD24306BF60048BBE6 /* ExamView.swift in Sources */,
 				84580AE1243073370048BBE6 /* StepperState.swift in Sources */,
 				84580AE92430E61E0048BBE6 /* ForEachCode.swift in Sources */,
