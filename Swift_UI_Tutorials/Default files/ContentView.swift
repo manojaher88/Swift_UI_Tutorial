@@ -10,16 +10,23 @@ import SwiftUI
 
 struct ContentView: View {
     
-    var pets = ["Catie", "Antonio", "Jessy", "Laurie", "Ray"]
+    let pets = ["Catie", "Antonio", "Jessy", "Laurie", "Ray"]
     
     var body: some View {
-        ScrollView {
-            HStack {
-                ForEach(pets, id: \.self) { pet in
-                    Image(pet)
+        
+        //        VStack {
+        //            ForEach(self.pets, id: \.self) { tip in
+        //                Image(tip)
+        //                    .resizable()
+        //                .scaleToFit()
+        //            }
+        //        }
+        
+        VStack {
+            ForEach(Range(0...3)) {_ in
+                Image("Catie")
                     .resizable()
-                        .aspectRatio(contentMode: .fit)
-                }
+                    .scaledToFit()
             }
         }
     }
