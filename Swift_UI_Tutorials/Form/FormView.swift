@@ -33,6 +33,7 @@ struct FormView: View {
     let treats = ["Mice Cakes", "Mice Cream", "Croissant", "Pancakes", "Mice Cream", "Mice Cream", "Mice Cream", "Mice Cream", "Mice Cream", "Mice Cream", "Mice Cream"]
     
     var body: some View {
+        
         NavigationView {
             Form {
                 Section {
@@ -44,13 +45,9 @@ struct FormView: View {
                     
                     Text("Selected Snack = \(self.treats[selectedIndex])")
                 }
-                
                 ForEach(0..<self.treats.count) {
                     Text(self.treats[$0])
                 }
-                
-                
-                
             }.navigationBarTitle("Select Snack")
         }
     }
