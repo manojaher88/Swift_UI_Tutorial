@@ -24,6 +24,12 @@
 		84580AEC2436D80C0048BBE6 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84580AEB2436D80C0048BBE6 /* ListView.swift */; };
 		84580AEF2436E2AB0048BBE6 /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84580AEE2436E2AB0048BBE6 /* FormView.swift */; };
 		84580AF22436F5930048BBE6 /* ScrollViewAndStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84580AF12436F5930048BBE6 /* ScrollViewAndStackView.swift */; };
+		84580AF52438D2190048BBE6 /* NavigationDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84580AF42438D2190048BBE6 /* NavigationDemo.swift */; };
+		84580AF82439EA3F0048BBE6 /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84580AF72439EA3F0048BBE6 /* Navigation.swift */; };
+		84580AFA2439F6470048BBE6 /* MyDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84580AF92439F6470048BBE6 /* MyDemo.swift */; };
+		84580AFD2439F7A80048BBE6 /* TabDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84580AFC2439F7A80048BBE6 /* TabDemo.swift */; };
+		84E8AB45243A2E26002DD09D /* ObservableDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E8AB44243A2E26002DD09D /* ObservableDemo.swift */; };
+		84E8AB88243CC4DE002DD09D /* PathDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E8AB87243CC4DE002DD09D /* PathDemo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +52,12 @@
 		84580AEB2436D80C0048BBE6 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		84580AEE2436E2AB0048BBE6 /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
 		84580AF12436F5930048BBE6 /* ScrollViewAndStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewAndStackView.swift; sourceTree = "<group>"; };
+		84580AF42438D2190048BBE6 /* NavigationDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationDemo.swift; sourceTree = "<group>"; };
+		84580AF72439EA3F0048BBE6 /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
+		84580AF92439F6470048BBE6 /* MyDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDemo.swift; sourceTree = "<group>"; };
+		84580AFC2439F7A80048BBE6 /* TabDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabDemo.swift; sourceTree = "<group>"; };
+		84E8AB44243A2E26002DD09D /* ObservableDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableDemo.swift; sourceTree = "<group>"; };
+		84E8AB87243CC4DE002DD09D /* PathDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathDemo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +90,10 @@
 		84580ABD242904050048BBE6 /* Swift_UI_Tutorials */ = {
 			isa = PBXGroup;
 			children = (
+				84E8AB86243CC454002DD09D /* Shape */,
+				84580AFB2439F79C0048BBE6 /* TabDemo */,
+				84580AF62439EA260048BBE6 /* NavigationDemo */,
+				84580AF32438D1D00048BBE6 /* NavigationView */,
 				84580AF02436F5570048BBE6 /* ScrollViewAndStacks */,
 				84580AED2436E29A0048BBE6 /* Form */,
 				84580AEA2436D79D0048BBE6 /* ListView */,
@@ -93,6 +109,8 @@
 				84580AC9242904060048BBE6 /* LaunchScreen.storyboard */,
 				84580ACC242904060048BBE6 /* Info.plist */,
 				84580AC6242904060048BBE6 /* Preview Content */,
+				84580AF92439F6470048BBE6 /* MyDemo.swift */,
+				84E8AB44243A2E26002DD09D /* ObservableDemo.swift */,
 			);
 			path = Swift_UI_Tutorials;
 			sourceTree = "<group>";
@@ -196,6 +214,38 @@
 			path = ScrollViewAndStacks;
 			sourceTree = "<group>";
 		};
+		84580AF32438D1D00048BBE6 /* NavigationView */ = {
+			isa = PBXGroup;
+			children = (
+				84580AF42438D2190048BBE6 /* NavigationDemo.swift */,
+			);
+			path = NavigationView;
+			sourceTree = "<group>";
+		};
+		84580AF62439EA260048BBE6 /* NavigationDemo */ = {
+			isa = PBXGroup;
+			children = (
+				84580AF72439EA3F0048BBE6 /* Navigation.swift */,
+			);
+			path = NavigationDemo;
+			sourceTree = "<group>";
+		};
+		84580AFB2439F79C0048BBE6 /* TabDemo */ = {
+			isa = PBXGroup;
+			children = (
+				84580AFC2439F7A80048BBE6 /* TabDemo.swift */,
+			);
+			path = TabDemo;
+			sourceTree = "<group>";
+		};
+		84E8AB86243CC454002DD09D /* Shape */ = {
+			isa = PBXGroup;
+			children = (
+				84E8AB87243CC4DE002DD09D /* PathDemo.swift */,
+			);
+			path = Shape;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -268,18 +318,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				84580AEF2436E2AB0048BBE6 /* FormView.swift in Sources */,
+				84E8AB45243A2E26002DD09D /* ObservableDemo.swift in Sources */,
 				84580ADD24306BF60048BBE6 /* ExamView.swift in Sources */,
 				84580AE1243073370048BBE6 /* StepperState.swift in Sources */,
 				84580AF22436F5930048BBE6 /* ScrollViewAndStackView.swift in Sources */,
+				84580AF82439EA3F0048BBE6 /* Navigation.swift in Sources */,
 				84580AE92430E61E0048BBE6 /* ForEachCode.swift in Sources */,
+				84E8AB88243CC4DE002DD09D /* PathDemo.swift in Sources */,
 				84580ABF242904050048BBE6 /* AppDelegate.swift in Sources */,
 				84580AE62430C7B90048BBE6 /* StackVews.swift in Sources */,
 				84580AEC2436D80C0048BBE6 /* ListView.swift in Sources */,
 				84580ADA242905310048BBE6 /* Button_SwiftUI.swift in Sources */,
 				84580AD82429041F0048BBE6 /* TextContentView.swift in Sources */,
 				84580AC1242904050048BBE6 /* SceneDelegate.swift in Sources */,
+				84580AF52438D2190048BBE6 /* NavigationDemo.swift in Sources */,
 				84580AD72429041F0048BBE6 /* ImageDemo.swift in Sources */,
 				84580AC3242904050048BBE6 /* ContentView.swift in Sources */,
+				84580AFD2439F7A80048BBE6 /* TabDemo.swift in Sources */,
+				84580AFA2439F6470048BBE6 /* MyDemo.swift in Sources */,
 				84580AE324307DDE0048BBE6 /* ToogleAnddatePicker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

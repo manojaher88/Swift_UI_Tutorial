@@ -14,8 +14,8 @@ struct ScrollViewAndStackView: View {
     
     var body: some View {
         GeometryReader { proxy in
-            ScrollView(.vertical, showsIndicators: false, content: {
-                VStack {
+            ScrollView(.horizontal, showsIndicators: false, content: {
+                HStack {
                     ForEach(0..<self.books.count) { i in
                         VStack {
                             Image(self.books[i].imageName)
@@ -29,7 +29,7 @@ struct ScrollViewAndStackView: View {
                         .background(Color.white)
                         .cornerRadius(10)
                         .shadow(radius: 3)
-                        .padding(EdgeInsets(top: 10, leading: 10, bottom: 0, trailing: 10))
+                        .padding(EdgeInsets(top: 10, leading: 10, bottom: 10, trailing: 10))
                     }
                 }
             })
@@ -44,7 +44,8 @@ struct ScrollViewAndStackView_Previews: PreviewProvider {
 }
 
 
-struct Book {
+struct Book: Identifiable {
+    var id: UUID = UUID()
     var imageName: String
     var title: String
 }
